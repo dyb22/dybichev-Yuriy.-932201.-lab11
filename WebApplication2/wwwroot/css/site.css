@@ -1,0 +1,97 @@
+html {
+  font-size: 14px;
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: rgb(28, 27, 27);
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.container-fluid {
+    margin-left: 90px;
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.ah {
+    color: rgb(130, 130, 130) !important;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 1.4em;
+}
+
+
+.containerr {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.0em;
+    margin-top: 20px;
+    margin-left:95px;
+}
+
+ul {
+    margin-left: 20px;
+    
+}
+
+li{
+    margin-top:1px;
+}
+
+.foot {
+    margin-left: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: -20px;
+    width:85%;
+}
+
+.footcont {
+    
+    display:flex;
+    flex-direction:column;
+    text-align: start;
+    justify-content:start;
+    width:100%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.UMcount {
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top:8px
+}
+

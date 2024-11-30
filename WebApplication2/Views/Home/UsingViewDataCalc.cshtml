@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "UsingViewDataCalc";
+}
+<div class="UMcount">
+<main class="mainmodel">
+    <h1 class="toph1">UsingViewDataCalc</h1>
+        <h2>Rand Value First:@ViewData["Number1"]</h2>
+        <h2>Rand Value Second:@ViewData["Number2"]</h2>
+
+    <h2>Add:</h2>
+        <span>@ViewData["Number1"] + @ViewData["Number2"] = @ViewData["Addition"]</span>
+
+    <h2>Sub:</h2>
+        <span>@ViewData["Number1"] - @ViewData["Number2"] = @ViewData["Subtraction"]</span>
+
+    <h2>Mult:</h2>
+        <span>@ViewData["Number1"] * @ViewData["Number2"] = @ViewData["Multiplication"]</span>
+
+    <h2>Div:</h2>
+        <span>@ViewData["Number1"] / @ViewData["Number2"] = @ViewData["Division"]</span>
+
+</main>
+</div>
